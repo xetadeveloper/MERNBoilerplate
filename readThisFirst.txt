@@ -1,0 +1,23 @@
+Things to do
+--------------
+
+* Add an env file
+* Create react app and copy files to dest
+* Create a changes.txt file to record changes for development
+* Create a todo.txt file to record things not done
+* Create a syntaxTest.js file for testing javascript syntaxTest
+
+
+List of packages to install
+------------------------------
+
+Client
+----------
+* redux
+* react-redux
+* react-icons
+* react-router-dom
+
+Server
+----------
+* just run npm install

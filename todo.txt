@@ -1,0 +1,30 @@
+Server
+--------
+Super High
+* Add logging to errorHandlers
+
+High
+* Configure database file to add many databases on config
+* Run tests for the routes again
+* confirm if heroku postbuild rename works
+
+Medium
+* Create the function documentation for the mongodb.js functions
+
+Small
+* Turn off debug mode
+
+
+
+Client
+--------
+Super High (>2hrs)
+
+High (~2 hrs)
+
+Medium (~30 Mins -> 1hr)
+* Add a processOn state in components like profile components that does CRUD operations
+* FIx loading circle dots animation
+
+Small (~15 Mins)
+* Design a finer not found page

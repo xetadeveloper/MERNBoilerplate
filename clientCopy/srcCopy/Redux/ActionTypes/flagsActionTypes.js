@@ -1,0 +1,3 @@
+export const UPDATE_FLAG_STATE = 'UPDATE_FLAG_STATE';
+export const RESET_FLAG_STATE = 'RESET_FLAG_STATE';
+

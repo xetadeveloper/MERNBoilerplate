@@ -1,0 +1,49 @@
+.pictureItem {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 15px 15px 10px;
+  gap: 10px;
+  transition: height 0.5s ease-in-out;
+}
+
+.pictureItem:hover {
+  box-shadow: 0 2px 30px 10px #ff3131;
+  height: 330px;
+  transition: height 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 425px) {
+  .pictureItem {
+    height: 250px;
+    width: 250px;
+  }
+
+  .pictureItem:hover {
+    box-shadow: 0 2px 30px 10px #ff3131;
+    height: 30 0px;
+    transition: height 0.5s ease-in-out;
+  }
+}
+
+.picImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border: 1px solid #999999;
+  border: 1px solid black;
+}
+
+.pictureItem,
+.picImg {
+  border: 1px solid #999999;
+}
+
+.spinHolder{
+
+}
+
+.spinIcon {
+  font-size: 1.5em;
+  color: #f85a5a;
+}

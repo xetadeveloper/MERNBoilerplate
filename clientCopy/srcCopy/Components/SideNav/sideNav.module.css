@@ -1,0 +1,73 @@
+.container {
+  width: 250px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 15px;
+  /* border-right: 1px solid rgb(212, 210, 210); */
+  row-gap: 30px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  flex-shrink: 0;
+  /* border: 1px solid black; */
+}
+
+.container::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: rgb(206, 206, 206);
+  cursor: pointer;
+  border-radius: 300px;
+}
+
+.menuContainer {
+  /* border: 1px solid black; */
+}
+
+.userBtn {
+  height: 40px;
+  width: 40px;
+  /* border: 1px solid black; */
+}
+
+.userIcon {
+  font-size: 1rem;
+}
+
+.navBtn {
+  margin-top: 20px;
+  position: relative;
+}
+
+.plusIcon {
+  /* border: 1px solid black; */
+  position: absolute;
+  right: 20px;
+  font-size: 1rem;
+}
+
+.btnText {
+  /* border: 1px solid black; */
+  word-spacing: 2px;
+}
+
+.navigation {
+  /* border: 1px solid black; */
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 200px;
+  }
+}
