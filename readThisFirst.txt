@@ -2,6 +2,7 @@ Things to do
 --------------
 
 * Add an env file
+* Create a client folder for react
 * Create react app and copy files to dest
 * Create a changes.txt file to record changes for development
 * Create a todo.txt file to record things not done
